@@ -1,0 +1,84 @@
+body{
+    background-image: url("./imgs/20200413_184821.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+p, h1, li{
+    color: white;
+}
+
+.Sidenav{
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+.Sidenav a, p{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    padding-left: 6px;
+}
+.Sidenav p{
+    font-size: 15px;
+}
+.Sidenav a:hover{
+    color: gray;
+}
+.Header{
+    margin-left: 10px;
+    filter: blur(4px);           
+    position: fixed;
+    opacity: 0.8;  /* for demo purpose  */
+    user-select: none;
+    background-color: black;
+    padding: 10px;
+}
+#H1{
+    top: 0;
+    height: 200px;
+}
+#H2{
+    top: 200;
+    height: 250px;
+}
+#H3{
+    top: 400;
+    height: 200px;
+}
+.HeaderMask{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: gray;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.HeaderMask p{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    color:bisque;
+}
+.HeaderMask p:hover{
+    color: black;
+    transition-duration: 1s;
+}
+.HeaderMask:hover{
+    background-color: black;
+    transition-duration: 1s;
+}
+.shiftLeft{
+    width: 0;
+    transition-duration: 2s;
+}
+.gitlogo{
+    background-color: white;
+    border-radius: 100%;
+}

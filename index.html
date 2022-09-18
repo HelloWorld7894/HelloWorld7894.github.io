@@ -1,9 +1,68 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="./src/Main.css">
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <script src="./index.js"></script>
     </head>
     <body>
-        <p>Test</p>
+        <div class="Sidenav">
+            <a href="./index.html">About</a>
+            <br>
+            <a href="./projects.html">Projects</a>
+            <br>
+            <a href="./blog.html">Blog</a>
+            <br>
+            <p>powered by Github Pages</p>
+        </div>
+        <div style="margin-left: 140px;">
+            <!--BASIC INFO-->
+            <div style="position: fixed;">
+                <div class="HeaderMask" id="H1" onclick="Description(0)">
+                    <p id="ClickableFilter">My Profile</p>
+                </div>
+                <div class="Header" id="H1">
+                    <h1>Daniel Pojhan</h1>
+                    <ul>
+                        <li>Self-taught programmer, high school student</li>
+                        <li>Fullstack developer</li>
+                        <li>Computer Vision</li>
+                        <li>Basics of Machine learning and Neural Networks</li>
+                        <li>Ubuntu and Arch user</li>
+                        <li>Python, Javascript (HTML, CSS, Databases), currently learning C/C++</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="position: fixed; margin-top: 200px;">
+                <div class="HeaderMask" id="H2" onclick="Description(1)">
+                    <p id="ClickableFilter">My Setup</p>
+                </div>
+                <div class="Header", id="H2">
+                    <h1>My Setup</h1>
+                    <ol>
+                        <li>Very old Lenovo ThinkPad (OS: Arch linux)</li>
+                        <li>Desktop PC</li>
+                        <ul>
+                            <li>CPU: AMD Ryzen 5 2600 6core</li>
+                            <li>OS: Ubuntu</li>
+                            <li>16GB of RAM</li>
+                            <li>Sapphire Radeon 540RX</li>
+                        </ul>
+                        <li>Some RPIs and Arduinos :)</li>
+                    </ol>
+                </div>
+            </div>
+            <div style="position: fixed; margin-top: 460px;">
+                <div class="HeaderMask" id="H3" onclick="Description(2)">
+                    <p id="ClickableFilter">Contact</p>
+                </div>
+                <div class="Header", id="H3">
+                    <h1>Contacts</h1>
+                    <div style="float: left;">
+                        <a href="https://github.com/HelloWorld7894" target="_blank"><img src="./logos/GithubLogo.png" alt="My Github" style="height:20px;" class="gitlogo"></a>
+                        <a href="https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAD0SzG4Bjs_kGuKTWwBoQskCNWU-q31jtGI&keywords=daniel%20pojhan&origin=RICH_QUERY_SUGGESTION&position=0&searchId=c3833731-afcb-4db2-8213-11d6d3f7eaf4&sid=UiT" target="_blank"><img src="./logos/Linkedin.png" alt="My Github" style="width:20px;"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
