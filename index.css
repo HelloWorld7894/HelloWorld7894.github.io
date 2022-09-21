@@ -4,10 +4,12 @@
 }
 
 body{
-    background-image: url("./imgs/20200413_184821.jpg");
+    /*background-image: url("./imgs/20200413_184821.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto auto;
+    background-size: 200%;
+    */
+    background-color: rgb(17, 16, 16);
 }
 p, h1, h2, li{
     color: white;
@@ -16,7 +18,7 @@ p, h1, h2, li{
 
 .Sidenav{
     height: 100%;
-    width: 150px;
+    width: 140px;
     position: fixed;
     z-index: 2;
     top: 0;
@@ -38,11 +40,10 @@ p, h1, h2, li{
     color: gray;
 }
 .Header{
+    margin-top: 20px;
     margin-left: 10px;
-    filter: blur(4px);           
-    position: fixed;
-    opacity: 0.8;  /* for demo purpose  */
-    user-select: none;
+    width: fit-content;
+    opacity: 0.8;
     background-color: black;
     padding: 10px;
 }
