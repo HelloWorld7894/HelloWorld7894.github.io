@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Monocraft'; /*Thank you: https://github.com/IdreesInc/Monocraft*/
-    src: url('/fonts/Monocraft.woff2') format('woff2'), 
-        url('/fonts/Monocraft.woff') format('woff'), 
-        url("/fonts/Monocraft.otf") format("opentype");
+    src: url('fonts/Monocraft.woff2') format('woff2'), 
+        url('fonts/Monocraft.woff') format('woff'), 
+        url("fonts/Monocraft.otf") format("opentype");
     font-style: normal;
     font-display: swap;
 }
