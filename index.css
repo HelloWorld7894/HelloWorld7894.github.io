@@ -1,7 +1,12 @@
 @font-face {
-    font-family: Monocraft;
-    src: url("/fonts/Monocraft.otf") format("opentype"); /*Thank you: https://github.com/IdreesInc/Monocraft*/
+    font-family: 'Monocraft'; /*Thank you: https://github.com/IdreesInc/Monocraft*/
+    src: url('/fonts/Monocraft.woff2') format('woff2'), 
+        url('/fonts/Monocraft.woff') format('woff'), 
+        url("/fonts/Monocraft.otf") format("opentype");
+    font-style: normal;
+    font-display: swap;
 }
+
 
 body{
     /*background-image: url("./imgs/20200413_184821.jpg");
