@@ -1,12 +1,13 @@
-@font-face {
-    font-family: 'Monocraft'; /*Thank you: https://github.com/IdreesInc/Monocraft*/
+/*
+@font-face { I wont probably use that
+    font-family: 'Monocraft'; Thank you: https://github.com/IdreesInc/Monocraft
     src: url('https://helloworld7894.github.io/MyCoolPage/fonts/Monocraft.woff2') format('woff2'), 
         url('https://helloworld7894.github.io/MyCoolPage/fonts/Monocraft.woff') format('woff'), 
         url("https://helloworld7894.github.io/MyCoolPage/fonts/Monocraft.otf") format("opentype");
     font-style: normal;
     font-display: swap;
 }
-
+*/
 
 body{
     /*background-image: url("./imgs/20200413_184821.jpg");
