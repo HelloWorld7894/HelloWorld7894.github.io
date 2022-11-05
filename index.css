@@ -53,18 +53,6 @@ p, h1, h2, li{
     background-color: black;
     padding: 10px;
 }
-#H1{
-    top: 0;
-    height: 200px;
-}
-#H2{
-    top: 200;
-    height: 250px;
-}
-#H3{
-    top: 400;
-    height: 200px;
-}
 .HeaderMask{
     width: 100%;
     position: fixed;
